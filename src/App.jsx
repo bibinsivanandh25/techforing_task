@@ -9,7 +9,7 @@ import HomePage from './pages/HomePage';
 import AuthForm from './pages/AuthForm';
 
 import JobForm from './pages/JobForm';
-import NavBar from './components/Navbar';
+import NavBar from './components/NavBar';
 // import PrivateRoute from './components/PrivateRoute';
 
 const AppWrapper = () => {
