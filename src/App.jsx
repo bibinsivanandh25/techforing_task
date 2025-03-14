@@ -7,8 +7,9 @@ import {
 } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import AuthForm from './pages/AuthForm';
-import NavBar from './components/Navbar';
+
 import JobForm from './pages/JobForm';
+import NavBar from './components/Navbar';
 // import PrivateRoute from './components/PrivateRoute';
 
 const AppWrapper = () => {

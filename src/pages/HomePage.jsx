@@ -3,9 +3,9 @@ import JobList from '../components/JobList';
 
 const HomePage = () => {
   return (
-    <div>
+    <>
       <JobList />
-    </div>
+    </>
   );
 };
 
