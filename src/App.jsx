@@ -9,7 +9,8 @@ import HomePage from './pages/HomePage';
 import AuthForm from './pages/AuthForm';
 
 import JobForm from './pages/JobForm';
-import NavBar from './components/NavBar';
+import Navbar from './components/Navbar';
+
 // import PrivateRoute from './components/PrivateRoute';
 
 const AppWrapper = () => {
@@ -19,7 +20,7 @@ const AppWrapper = () => {
   return (
     <>
       {/* Conditionally render NavBar */}
-      {!isAuthPage && <NavBar />}
+      {!isAuthPage && <Navbar />}
 
       {/* Wrap routes inside Routes */}
       <Routes>

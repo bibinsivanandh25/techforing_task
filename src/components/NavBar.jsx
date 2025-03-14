@@ -1,7 +1,7 @@
 import { AppBar, Toolbar, Typography, Button, Box } from '@mui/material';
 import { Link, useNavigate } from 'react-router-dom';
 
-const NavBar = () => {
+const Navbar = () => {
   const navigate = useNavigate();
 
   const handleLogout = () => {
@@ -56,4 +56,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Navbar;
