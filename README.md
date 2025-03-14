@@ -1,12 +1,41 @@
-# React + Vite
+## Overview
+This project showcases a simple job management system that mimics a professional career page (TechForing style).
+Users must register and log in to access the system. After logging in, users can:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-- View available jobs
+-- Create new jobs
+-- Delete jobs
+✅ All pages except login/register are protected via Private Routes.
 
-Currently, two official plugins are available:
+## 🚀 Features
+🔐 User Authentication (Login & Registration using localStorage for demo)
+🏠 Home Page with job listings (after login)
+➕ Add New Job functionality
+❌ Delete Job functionality
+🚧 Private Routing to protect internal pages from unauthenticated access
+🧭 Conditional Navbar that shows when users are logged in
+🎨 Responsive and modern UI inspired by TechForing Careers
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+React.js (Frontend library)
+React Router DOM v6+ (Routing and navigation)
+LocalStorage (Temporary backend simulation for authentication & job data)
+Tailwind CSS / CSS (Styling)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+1. Clone the repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+2. Install dependencies
+bash
+Copy
+Edit
+npm install
+3. Run the application
+bash
+Copy
+Edit
+npm run dev
