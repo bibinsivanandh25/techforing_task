@@ -1,41 +1,35 @@
 ## Overview
-This project showcases a simple job management system that mimics a professional career page (TechForing style).
-Users must register and log in to access the system. After logging in, users can:
 
--- View available jobs
--- Create new jobs
--- Delete jobs
+This project demonstrates a Job Portal System that lets users register and log in to access a private dashboard where they can:
+
+- View available jobs
+- Create new jobs
+- Delete jobs
 ✅ All pages except login/register are protected via Private Routes.
 
 ## 🚀 Features
-🔐 User Authentication (Login & Registration using localStorage for demo)
-🏠 Home Page with job listings (after login)
-➕ Add New Job functionality
-❌ Delete Job functionality
-🚧 Private Routing to protect internal pages from unauthenticated access
-🧭 Conditional Navbar that shows when users are logged in
-🎨 Responsive and modern UI inspired by TechForing Careers
+- 🔐 User Authentication (Login & Registration using localStorage for demo)
+- 🏠 Home Page with job listings (after login)
+- ➕ Add New Job functionality
+- ❌ Delete Job functionality
+- 🚧 Private Routing to protect internal pages from unauthenticated access
+- 🧭 Conditional Navbar that shows when users are logged in
+
 
 ## 🛠️ Tech Stack
-React.js (Frontend library)
-React Router DOM v6+ (Routing and navigation)
-LocalStorage (Temporary backend simulation for authentication & job data)
-Tailwind CSS / CSS (Styling)
+- React.js (Frontend library)
+- React Router DOM v6+ (Routing and navigation)
+- LocalStorage (Temporary backend simulation for authentication & job data)
+- Material UI
 
 ## 🚀 Getting Started
-1. Clone the repository
-bash
-Copy
-Edit
-git clone https://github.com/your-username/your-repo-name.git
+
+### Clone the repository
+git clone https://github.com/bibinsivanandh25/techforing_task
 cd your-repo-name
-2. Install dependencies
-bash
-Copy
-Edit
+
+### Install dependencies
 npm install
-3. Run the application
-bash
-Copy
-Edit
+
+### Run the application
 npm run dev
