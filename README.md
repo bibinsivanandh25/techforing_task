@@ -22,6 +22,15 @@ This project demonstrates a Job Portal System that lets users register and log i
 - LocalStorage (Temporary backend simulation for authentication & job data)
 - Material UI
 
+## 🚀 Submission Links
+- GitHub Repository:
+🔗 https://github.com/bibinsivanandh25/techforing_task
+
+- Live Project (Deployed URL):
+🌐 https://techforing-task.vercel.app/
+
+
+
 ## 🚀 Getting Started
 
 ### Clone the repository
